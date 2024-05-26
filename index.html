@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Triple Chasm Navigator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Triple Chasm Navigator</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#" onclick="showSection('dashboard')">Dashboard</a></li>
+            <li><a href="#" onclick="showSection('profile')">Profile</a></li>
+            <li><a href="#" onclick="showSection('questionnaire')">Questionnaire</a></li>
+            <li><a href="#" onclick="showSection('help')">Help</a></li>
+            <li><a href="#" onclick="showSection('data')">Data</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="dashboard" class="content-section">
+            <h2>Dashboard</h2>
+            <div id="dashboardContent"></div>
+        </section>
+        <section id="profile" class="content-section">
+            <h2>Profile</h2>
+            <div id="profileContent"></div>
+        </section>
+        <section id="questionnaire" class="content-section">
+            <h2>Questionnaire</h2>
+            <div id="questionnaireContent"></div>
+        </section>
+        <section id="help" class="content-section">
+            <h2>Help</h2>
+            <div id="helpContent"></div>
+        </section>
+        <section id="data" class="content-section">
+            <h2>Data</h2>
+            <div id="dataContent"></div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
